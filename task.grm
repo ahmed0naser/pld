@@ -1,0 +1,82 @@
+!AliScript
+!AliCraft
+"start symbol" = <Start program>
+!Termenal
+ID=[_]|{letter}{Alphanumeric}*
+Digit= ('+'|'-')?{digit}+ ('.'{digit}+)? (('e'|('-'|'+')?{digit}+) '^' ('+'|'-'){digit}+('.'{digit}+)? )? 
+!Rules
+<Start program> ::= hello <stmt_list> bye
+<stmt_list> ::= <concept>      
+             |<concept><stmt_list>
+             
+<concept> ::= <assign>
+           |<if_stmt>
+           |<for_stmt>
+           |<MethodDeclaration>
+           |<MethodCall>
+           
+
+<assign> ::= <id>'='<expr>   
+
+<id>::= ID
+
+<expr>::=<expr>'+'<term>
+       |<expr>'-'<term>
+       |<term>
+
+<term>::= <term>'*'<factor>
+       |<term>'/'<factor>
+       |<term>'%'<factor>
+       |<factor>
+       
+<factor>::=<factor>'^'<exp>
+         |<exp>
+
+<exp>::= '('<expr>')'
+      |<id>
+      |<digit>
+      
+<digit>::=Digit
+        
+!if stmt
+
+<if_stmt>::= if'('<cond>')' hello <stmt_list> bey
+          |if '('<cond>')' hello <stmt_list> bey else hello <stmt_list> bey
+          
+<cond>::= <expr><op><expr>
+       
+<op>::= '<'|'<='|'>='|'>'|'=='|'!='
+     
+!for loop stmt
+<for_stmt>::= loop '('<assign>',' <cond> ',' <step>')''{'<stmt_list>'}'
+           
+!<data_type>::= 'int'|'double' | 'float' | 'string'
+       
+<step>::= '--'<id>
+       |<id>'--'
+       |'++'<id>
+       |<id>'++'
+       |<assign>           
+       
+!method
+
+<MethodDeclaration> ::= 'method' <id> '('<ParameterList> ')' '{'<stmt_list>'}'
+                     
+<ParameterList> ::= <id> 
+                     
+!method call
+                     
+!___________Define Function===== string Function= Func-name(int x; int y;){----}
+
+<MethodDeclaration>::='method''=' <id>'('<ParameterList>')''{'<stmt_list>'}'
+<ParameterList>::=<id><ParameterList>
+           |<id>
+
+
+!__________Call Function===== set x = func-name()
+
+
+<MethodCall>::= 'set'<id>'='<id>'('<ParameterList>')'
+
+
+                     

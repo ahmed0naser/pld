@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parser windowsform", "parser windowsform\parser windowsform.csproj", "{802E1E14-6536-4148-B801-7046C28F63FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802E1E14-6536-4148-B801-7046C28F63FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802E1E14-6536-4148-B801-7046C28F63FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802E1E14-6536-4148-B801-7046C28F63FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802E1E14-6536-4148-B801-7046C28F63FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6A8BFDC-DFA4-45B1-A4E2-FA038FE7FBAC}
+	EndGlobalSection
+EndGlobal

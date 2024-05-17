@@ -1,0 +1,14 @@
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\bin\Debug\parser windowsform.exe.config
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\bin\Debug\parser windowsform.exe
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\bin\Debug\parser windowsform.pdb
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\bin\Debug\CalithaLib.dll
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\bin\Debug\GoldParserEngine.dll
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\obj\Debug\parser windowsform.csproj.AssemblyReference.cache
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\obj\Debug\parser windowsform.csproj.SuggestedBindingRedirects.cache
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\obj\Debug\parser_windowsform.Form1.resources
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\obj\Debug\parser_windowsform.Properties.Resources.resources
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\obj\Debug\parser windowsform.csproj.GenerateResource.cache
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\obj\Debug\parser windowsform.csproj.CoreCompileInputs.cache
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\obj\Debug\parser windowsform.csproj.CopyComplete
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\obj\Debug\parser windowsform.exe
+D:\Fcis\3 year\2\pld\parser windowsform\parser windowsform\obj\Debug\parser windowsform.pdb
